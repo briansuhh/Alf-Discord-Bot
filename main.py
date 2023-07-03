@@ -1,6 +1,7 @@
 import settings
 import discord
 import random
+from stay_alive import stay_alive
 from discord.ext import commands
 
 def run():
@@ -25,4 +26,5 @@ def run():
     bot.run(settings.TOKEN)
 
 if __name__ == "__main__":
+    stay_alive()
     run()
