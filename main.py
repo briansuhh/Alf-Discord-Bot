@@ -11,6 +11,16 @@ def run():
 
     @bot.event
     async def on_ready():
+        # Load commands
+        for cmd in settings.CMDS_DIR.glob("*.py"):
+            if cmd.name != "__init__.py":
+                await bot.load_extension(f"cmds.{cmd.name[:-3]}")
+            
+        # Load Cogs
+        for cog in settings.COGS_DIR.glob("*.py"):
+            if cog.name != "__init__.py":
+                await bot.load_extension(f"cogs.{cog.name[:-3]}")
+        
         print(f"User: {bot.user} (ID: {bot.user.id})")
 
     @bot.event
@@ -22,6 +32,20 @@ def run():
         ]
 
         await welcome_channel.send(random.choice(custom_messages))
+    
+    @bot.command()
+    async def reload_bot(ctx):
+        # Reload commands
+        for cmd in settings.CMDS_DIR.glob("*.py"):
+            if cmd.name != "__init__.py":
+                await bot.reload_extension(f"cmds.{cmd.name[:-3]}")
+            
+        # Reload Cogs
+        for cog in settings.COGS_DIR.glob("*.py"):
+            if cog.name != "__init__.py":
+                await bot.reload_extension(f"cogs.{cog.name[:-3]}")
+
+        await ctx.send("Reload complete!")
     
     bot.run(settings.TOKEN)
 
