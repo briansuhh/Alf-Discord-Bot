@@ -42,17 +42,7 @@ def run():
     bot = commands.Bot(command_prefix="@", intents=intents)
 
     @bot.event
-    async def on_ready():
-        # Load commands
-        for cmd in settings.CMDS_DIR.glob("*.py"):
-            if cmd.name != "__init__.py":
-                await bot.load_extension(f"cmds.{cmd.name[:-3]}")
-            
-        # Load Cogs
-        for cog in settings.COGS_DIR.glob("*.py"):
-            if cog.name != "__init__.py":
-                await bot.load_extension(f"cogs.{cog.name[:-3]}")
-        
+    async def on_ready():        
         print(f"User: {bot.user} (ID: {bot.user.id})")
         await verification_message(bot)
 
@@ -81,22 +71,8 @@ def run():
             with open("verify.txt", "a") as f:
                 f.write(f"Name: {name} | Proof: {proof}\n")
     
-    @bot.command()
-    async def reload_bot(ctx):
-        # Reload commands
-        for cmd in settings.CMDS_DIR.glob("*.py"):
-            if cmd.name != "__init__.py":
-                await bot.reload_extension(f"cmds.{cmd.name[:-3]}")
-            
-        # Reload Cogs
-        for cog in settings.COGS_DIR.glob("*.py"):
-            if cog.name != "__init__.py":
-                await bot.reload_extension(f"cogs.{cog.name[:-3]}")
-
-        await ctx.send("Reload complete!")
-    
     bot.run(settings.TOKEN)
 
 if __name__ == "__main__":
-    # stay_alive()
+    stay_alive()
     run()
