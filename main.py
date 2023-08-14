@@ -69,7 +69,7 @@ def run():
 
             # Insert into text file
             with open("verify.txt", "a") as f:
-                f.write(f"Name: {name} | Proof: {proof}\n")
+                f.write(f"User: {user.name} | ID: {user.id} | Nickname: {user.nick} Name: {name} | Proof: {proof}\n")
     
     bot.run(settings.TOKEN)
 
