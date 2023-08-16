@@ -1,7 +1,13 @@
-import os
+from os import getenv, environ
+from pathlib import Path
 from dotenv import load_dotenv
 
 load_dotenv()
-TOKEN = os.getenv("TOKEN")
-VERIFY_CHANNEL_TOKEN = int(os.environ["VERIFY_CHANNEL"])
-WELCOME_CHANNEL_TOKEN = int(os.environ["WELCOME_CHANNEL"])
+TOKEN = getenv("TOKEN")
+VERIFY_CHANNEL_TOKEN = int(environ["VERIFY_CHANNEL"])
+WELCOME_CHANNEL_TOKEN = int(environ["WELCOME_CHANNEL"])
+VERIFY_MESSAGE_ID = None
+
+# DIRECTORIES
+BASE_DIR = Path(__file__).parent
+LOGS_DIR = BASE_DIR / "logs"
