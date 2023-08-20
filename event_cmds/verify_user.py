@@ -34,7 +34,9 @@ class VerifyModal(Modal, title="Fill in the details to get verified"):
 
         # Save their response to verify.txt
         with open(str(settings.LOGS_DIR / "verify.txt"), "a") as f:
-            f.write(f"User: {user.name} | ID: {user.id} | Nickname: {user.nick} Name: {self.full_name} | Proof: {self.proof}\n")
+            f.write(
+                f"User: '{user.name}' | ID: '{user.id}' | Nickname: '{user.nick}' | Name: '{self.full_name}' | Proof: '{self.proof}'\n\n"
+            )
 
         try:
             await interaction.response.send_message()
