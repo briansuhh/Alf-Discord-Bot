@@ -4,6 +4,8 @@ import random
 from stay_alive import stay_alive
 from discord.ext import commands
 from event_cmds.verify_user import interactive_verification_message
+from event_cmds.anon_message import anon_message
+import asyncio
 
 
 def run():
@@ -14,7 +16,16 @@ def run():
     @bot.event
     async def on_ready():
         print(f"User: {bot.user} (ID: {bot.user.id})")
-        settings.VERIFY_MESSAGE_ID = await interactive_verification_message(bot)
+        # call the function every 10 minutes to avoid the "this interaction failed"        
+        while True: 
+            settings.VERIFY_MESSAGE_ID = await interactive_verification_message(bot)
+            settings.ANON_MESSAGE_ID = await anon_message(bot)
+            await asyncio.sleep(600)
+
+    @bot.event
+    async def on_message_delete(message):
+        if message.channel.id == settings.ANON_CHANNEL_TOKEN:
+            await anon_message(bot)
 
     @bot.event
     async def on_member_join(member):
@@ -33,7 +44,7 @@ def run():
             f"Welcome to the crew, {member.mention}!!! Are ye ready for an adventure??? ૮꒰˵•̀ ﻌ •´˵꒱ა ",
             f"Great to meet ya, mi alfaloves {member.mention}! >< You're now part of the cloud crew~ ૮꒰˶ᵔ ᵕ ᵔ˶ ꒱ა",
             f"Holler up to the newly added cloud buddy, {member.mention}! LET'S MAKE SUM NOISE~ ૮꒰˶ᵔ ᗜ ᵔ˶ ꒱ა",
-            f"Hemlooo, {member.mention}!!! ‘wag mo na ako iiwan, ha??? padlock tapon susi sa river mehehe ૮₍ ˶ᵔ ᵕ ᵔ˶ ₎ა",
+            f"Hemlooo, {member.mention}!!! 'wag mo na ako iiwan, ha??? padlock tapon susi sa river mehehe ૮₍ ˶ᵔ ᵕ ᵔ˶ ₎ა",
             f"Hi, your name is (what?), your name is (who?), your name is {member.mention} and welcome to the one and only server ૮꒰˵•̀ ﻌ •´˵꒱ა",
             f"Whale-corn— ay mali... WELCOME TO THE SERVER, {member.mention} ૮꒰˶ᵔ ᵕ ᵔ˶ ꒱ა",
             f"Andito na si {member.mention} wala siyang apelyido, magbabagsakan dito in 5... 4... 3... 2...",

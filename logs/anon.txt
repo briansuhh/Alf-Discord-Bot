@@ -1,0 +1,202 @@
+User: 'ayumi.xc' | ID: '1143822573860298832' | Message: 'crush kita' | Alias: 'tite'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: '' | Alias: ''
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: '' | Alias: ''
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: '' | Alias: ''
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'asd' | Alias: 'asfdfed'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'asdf' | Alias: 'dfsdff'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: '' | Alias: ''
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'sa' | Alias: 'sdg'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: '' | Alias: ''
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'asd' | Alias: 'sdf'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'asd' | Alias: 'asdf'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: '' | Alias: ''
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: '' | Alias: ''
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: '' | Alias: ''
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: '' | Alias: ''
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: '' | Alias: ''
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: '' | Alias: ''
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: '' | Alias: ''
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'sd' | Alias: 'sf'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: '' | Alias: ''
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'sdf' | Alias: 'asdf'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: '' | Alias: ''
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: '' | Alias: ''
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: '' | Alias: ''
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 's' | Alias: 'sdf'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: '' | Alias: ''
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: '' | Alias: ''
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: '' | Alias: ''
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: '' | Alias: ''
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: '' | Alias: ''
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'asdf' | Alias: 'asdf'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'sd' | Alias: 'sdf'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'dsg' | Alias: 'fg'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'asf' | Alias: 'asfas'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'asf' | Alias: 'asdf'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'ayoko na' | Alias: 'bri'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'asf' | Alias: 'asfd'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'tangina mo' | Alias: 'ako to'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'asdf' | Alias: 'assdfsdfsdagsadasddf'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'asdfsda' | Alias: 'sdflasflkasf'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'sf' | Alias: 'gasdf'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'sdf' | Alias: 'asd'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'iloveyou' | Alias: ''
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'plsnamanwagkangganyan'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'ilysm'
+
+User: 'ayumi.xc' | ID: '1143822573860298832' | Message: 'asdf'
+
+User: 'ayumi.xc' | ID: '1143822573860298832' | Message: 'asdfsa'
+
+User: 'ayumi.xc' | ID: '1143822573860298832' | Message: 'adfas'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'sadfs'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'asdfsa'
+
+User: 'ayumi.xc' | ID: '1143822573860298832' | Message: 'owfuckkkkkk'
+
+User: 'ayumi.xc' | ID: '1143822573860298832' | Message: 'hj'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'sfasf'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'sfasfd'
+
+User: 'ayumi.xc' | ID: '1143822573860298832' | Message: 'asf'
+
+User: 'ayumi.xc' | ID: '1143822573860298832' | Message: 'asdf'
+
+User: 'ayumi.xc' | ID: '1143822573860298832' | Message: 'asdf'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'asjdfh'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'asf'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'asfasf'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'FASDF'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'sfd'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'sf'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'sad'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'asdf'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'sadf'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'asdf'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'asdf'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'asdf'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'asf'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'asdf'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'as'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'sdf'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'asdf'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'saf'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'asf'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'sadfas'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'sdfasfas'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'asfsafsaf'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'betloggg ka'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'ampota'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'gsdfs'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'betlog ka ampota'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'tangina mo'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'asdfasf'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'mahal kita huhu'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'uhu'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'tngina naman o'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'putangina'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'putangina mo'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'asd'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'asdf'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'asdlkf'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'poutaninas'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'putanina'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'wahhh'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'asfas'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'tnina mo anamsdamsnfmsfsaflakjsktnina mo anamsdamsnfmsfsaflakjsktnina mo anamsdamsnfmsfsaflakjsktnina mo anamsdamsnfmsfsaflakjsktnina mo anamsdamsnfmsfsaflakjsktnina mo anamsdamsnfmsfsaflakjsktnina mo anamsdamsnfmsfsaflakjsktnina mo anamsdamsnfmsfsaflakjsktnina mo anamsdamsnfmsfsaflakjsktnina mo anamsdamsnfmsfsaflakjsktnina mo anamsdamsnfmsfsaflakjsktnina mo anamsdamsnfmsfsaflakjsktnina mo anamsdamsnfmsfsaflakjsktnina mo anamsdamsnfmsfsaflakjsktnina mo anamsdamsnfmsfsaflakjsk'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'asfastnina mo anamsdamsnfmsfsaflakjsktnina mo anamsdamsnfmsfsaflakjsktnina mo anamsdamsnfmsfsaflakjsktnina mo anamsdamsnfmsfsaflakjsktnina mo anamsdamsnfmsfsaflakjsktnina mo anamsdamsnfmsfsaflakjsktnina mo anamsdamsnfmsfsaflakjsktnina mo anamsdamsnfmsfsaflakjsktnina mo anamsdamsnfmsfsaflakjsktnina mo anamsdamsnfmsfsaflakjsktnina mo anamsdamsnfmsfsaflakjsktnina mo anamsdamsnfmsfsaflakjsktnina mo anamsdamsnfmsfsaflakjsktnina mo anamsdamsnfmsfsaflakjsktnina mo anamsdamsnfmsfsaflakjsktnina mo anamsdamsnfmsfsaflakjsktnina mo anamsdamsnfmsfsaflakjsktnina mo anamsdamsnfmsfsaflakjsk'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'pls don't be inlove with someone else'
+
+User: 'bri.qt' | ID: '699591900323250188' | Message: 'ow pls namn'
+

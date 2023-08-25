@@ -38,11 +38,12 @@ class VerifyModal(Modal, title="Fill in the details to get verified"):
                 f"User: '{user.name}' | ID: '{user.id}' | Nickname: '{user.nick}' | Name: '{self.full_name}' | Proof: '{self.proof}'\n\n"
             )
 
-        try:
-            await interaction.response.send_message()
-        except Exception as e:
-            print(e)
+        await interaction.response.send_message("Verification is in process")
 
+        async for message in interaction.channel.history(limit=None):
+            if not message.components:
+                await message.delete()
+        
     async def on_error(self, interaction, error: Exception) -> None:
         return await super().on_error(interaction, error)
 
