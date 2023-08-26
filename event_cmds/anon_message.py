@@ -22,7 +22,9 @@ class AnonModal(Modal, title="Send an anonymous message."):
     async def on_submit(self, interaction) -> None:
         user = interaction.user
 
-        # Create an embed of the anonymous message
+        # await interaction.response.send_message(f"{user.name}, your message has been sent.", ephemeral=True)
+        await interaction.response.defer() #this will not display any message
+
         embed = discord.Embed(description=f"{self.anon_message}", color=discord.Color.pink())
         await interaction.channel.send(embed=embed)
 
@@ -34,9 +36,6 @@ class AnonModal(Modal, title="Send an anonymous message."):
         async for message in interaction.channel.history(limit=None):
             if message.components:
                 await message.delete()
-
-        await interaction.response.send_message(f"{user.name}, your message has been sent.", ephemeral=True)
-        # await interaction.response.defer() #this will not display any message
 
     async def on_error(self, interaction, error: Exception) -> None:
         return await super().on_error(interaction, error)
@@ -70,5 +69,7 @@ things to do:
 fix the embed - done
 learn the sticky message for the anon button - done
 call the function every 10 minutes to avoid the "this interaction failed" - done
-maybe mute the notification of the bot for everyone? 
+maybe mute the notification of the bot for everyone? - not possible
+remove the code that calls the function every 10 minutes, 
+instead i created a slash command that fixes the error for anon and verify
 """

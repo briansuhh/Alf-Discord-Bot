@@ -5,28 +5,35 @@ from stay_alive import stay_alive
 from discord.ext import commands
 from event_cmds.verify_user import interactive_verification_message
 from event_cmds.anon_message import anon_message
-import asyncio
-
 
 def run():
-    intents = discord.Intents.all()
-
-    bot = commands.Bot(command_prefix="@", intents=intents)
+    bot = commands.Bot(command_prefix="@", intents=discord.Intents.all())
 
     @bot.event
     async def on_ready():
         print(f"User: {bot.user} (ID: {bot.user.id})")
-        # call the function every 10 minutes to avoid the "this interaction failed"        
-        while True: 
-            settings.VERIFY_MESSAGE_ID = await interactive_verification_message(bot)
-            settings.ANON_MESSAGE_ID = await anon_message(bot)
-            await asyncio.sleep(600)
+        await bot.tree.sync()
+        settings.VERIFY_MESSAGE_ID = await interactive_verification_message(bot)
+        settings.ANON_MESSAGE_ID = await anon_message(bot)
 
     @bot.event
     async def on_message_delete(message):
         if message.channel.id == settings.ANON_CHANNEL_TOKEN:
             await anon_message(bot)
 
+    @bot.tree.command(description="To resolve the 'this interaction failed' issue.")
+    async def troubleshoot(interaction: discord.Interaction):
+        await interaction.response.send_message("The bot is up and running.", ephemeral=True)
+
+        # to fix the confession bot
+        anon_channel = bot.get_channel(settings.ANON_CHANNEL_TOKEN)
+        async for message in anon_channel.history(limit=None): 
+                if message.components:
+                    await message.delete()
+                    
+        #to fix the verification bot
+        await interactive_verification_message(bot) 
+    
     @bot.event
     async def on_member_join(member):
         welcome_channel = bot.get_channel(settings.WELCOME_CHANNEL_TOKEN)
